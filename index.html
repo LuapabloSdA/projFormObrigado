@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário de Obrigado</title>
         <title>Formulário de Contato</title>
         <!-- Meta tags Obrigatórias -->
         <meta charset="utf-8">
@@ -14,12 +15,11 @@
         <title>História</title>
 
             <style>
-
                 body{
                     background: rgb(50,50,51);
                     background: radial-gradient(circle, rgba(50,50,51,1) 3%, rgba(232,223,227,1) 76%);
                 }
-                form{
+                div{
                     width: 40%;
                     min-width: 350px;
                     background-color: white;
@@ -42,30 +42,26 @@
                     height: 200px;
                     padding-top: 10px;
                 }
-                
-                
+                button{
+                    display: block;
+                    margin: 20px auto;
+                    height: 40px;
+                    width: 70%;
+                    min-width: 320;
+                    border: none;
+                    border-radius: 5px;
+                    color: white;
+                    background: radial-gradient(circle, rgba(50,50,51,1) 3%, rgba(232,223,227,1) 76%);
+                    cursor: pointer;
+                }
             </style>
     </head>
 
     <body>
-        <form action="https://formsubmit.co/luancraftsg@gmail.com" method="POST">
-            <h1 class="text-center">Formulário de Contato</h1>
+        <div>
+            <h1 class="text-center">Obrigado</h1>
             <br>
-            
-            <input type="hidden" name="_next" value="https://luapablosda.github.io/projFormObrigado/">
-
-            <h4 class="text-center">Digite o seu Nome...</h4>
-
-            <input type="text" name="name" placeholder="Nome" required >
-            <br>
-            <h4 class="text-center" >Digite o seu E-mail...</h4>
-            <input type="email" name="email" placeholder="E-mail" required>
-            <br>
-            <h4 class="text-center" >Digite oque você deseja falar.</h4>
-            <textarea name="message" placeholder="Digite sua mensagem..." required></textarea>
-            <br>
-            <br>
-            <button href="https://luapablosda.github.io/projInicial/ " type="button submit" class="btn btn-secondary btn-lg active btn-lg btn-block btn btn-dark" role="button" aria-pressed="true">Enviar</button>
-        </form>
+            <a href="https://luapablosda.github.io/projInicial/ " class="btn btn-secondary btn-lg active btn-lg btn-block btn btn-dark" role="button" aria-pressed="true">Voltar para o Site</a>
+        </div>
     </body>
 </html>
